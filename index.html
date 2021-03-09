@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <script language="JavaScript" src="js/script.js"></script>
+
+    <title>Questão 4</title>
+</head>
+
+<body>
+
+    <div class="conteiner">
+
+        <div class="formulario">
+            <div class="titulo">
+                SISTEMA DE GESTÃO ACADEMICA
+            </div>
+            <div class="subtitulo">
+                MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO
+            </div>
+
+            <div class="cadastro">
+
+                <form name="cadastroUsuario">
+                    <table class="tabela">
+
+                        <tr class="linha">
+                            <td class="col-Left">Login:</td>
+                            <td class="col-right">
+                                <input type="text">
+                            </td>
+                        </tr>
+
+                        <tr class="linha">
+                            <td class="col-Left">Senha:</td>
+                            <td class="col-right">
+                                <input type="password">
+                            </td>
+                        </tr>
+
+                        <tr class="linha">
+                            <td class="col-Left">Status:</td>
+                            <td class="col-right">
+                                <select>
+                                    <option>Ativo</option>
+                                    <option>Inativo</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr class="linha">
+                            <td class="col-Left">Tipo:</td>
+                            <td class="col-right">
+                                <input type="radio" name="tipo"> <label>Técnico</label><br>
+                                <input type="radio" name="tipo"> <label>Professor</label><br>
+                                <input type="radio" name="tipo"> <label>Aluno</label><br>
+                            </td>
+                        </tr>
+
+                        <tr class="linha">
+                            <td class="col-Left">Data Criação:</td>
+                            <td class="col-right">
+                                <input type="date" name="txtData">
+                            </td>
+                        </tr>
+
+                        <tr class="linha">
+                            <td class="col-Left">Perfil:</td>
+                            <td class="col-right">
+                                <input type="radio" name="perfil"> <label>Convidado</label><br>
+                                <input type="radio" name="perfil"> <label>Administrador</label><br>
+                            </td>
+                        </tr>
+
+                        <tr class="linha">
+                            <td class="col-Left">Observações:</td>
+                            <td class="col-right">
+                                <!--<textarea rows="3" cols="45" class="boxtexto-grande"></textarea>-->
+                                <textarea></textarea>
+                            </td>
+                        </tr>
+
+                        <tr class="linha">
+                            <td class="col-Left">Módulos:</td>
+                            <td class="col-right">
+                                <input type="checkbox" name="modulo"> <label>Compras</label><br>
+                                <input type="checkbox" name="modulo"> <label>Biblioteca</label><br>
+                                <input type="checkbox" name="modulo"> <label>Academico</label><br>
+                                <input type="checkbox" name="modulo"> <label>Documentação</label><br>
+                                <input type="checkbox" name="modulo"> <label>Recursos Humanos</label><br>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div class="botoes">
+                        <input type="submit" value="Cadastrar" class="btnCadastro">
+                        <input type="reset" value="Excluir" class="apagar">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
