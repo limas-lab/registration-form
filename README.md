@@ -5,7 +5,7 @@
 
 ### Proposal
 
-It was proposed to replicate the registration form as the example on the below image, but I did it differently and added some HTML and CSS features.
+It was proposed to replicate the registration form as the example on the below image, but I did it differently and added some HTML and CSS features. You can check the result [by clicking here](https://limas-lab.github.io/registration-form/).
 
 ![image](https://user-images.githubusercontent.com/70290145/110566957-833a1580-812f-11eb-9f31-fbf933836751.png)
 
